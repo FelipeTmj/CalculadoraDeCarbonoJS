@@ -1,0 +1,113 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: white;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: x-large;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+    text-align: end;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+.search-container input {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;                  /* Quebra o codigo! */
+    outline: none;
+    width: 0;
+    opacity: 0;
+    transition: width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.search-container button {
+    background: none;
+    border: none;           /*Essa merda se tirarem quebra o Header Inteiro! */
+    cursor: pointer;   
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f5;
+    margin: 0;
+    background-image: url(img/4folhas.jpg);
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    color: black;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    background-color: #e9f5ff;
+    padding: 10px;
+    border-radius: 4px;
+}

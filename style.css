@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/plant-aesthetic-desktop-weite3riajjmksbe.jpg);
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #34495e;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: white;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: x-large;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+    text-align: end;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.search-container input {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 0;
+    opacity: 0;
+    transition: width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.search-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
